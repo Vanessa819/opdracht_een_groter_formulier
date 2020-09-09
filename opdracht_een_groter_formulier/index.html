@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Een groter formulier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Dit is een groter formulier van mijn receptenwebsite</h1>
+
+
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            <label> Naam:<input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label>Email adres:<input type="text" name="email" /></label>
+        </p>
+        <p>
+            <label>Telefoonnummer:<input type="tel" name="phone" /></label>
+        </p>
+        <p>
+            <label>Leeftijd:<input type="number" name="number" min="10" max="100" /></label>
+        </p>
+        <p>
+            <label>Geboortedatum:<input type="date" name="date" /></label>
+        </p>
+        <p>
+            <label>Geslacht:</label>
+            <label>Man:<input type="radio" name="gender" value="male" /></label>
+            <label>Vrouw:<input type="radio" name="gender" value="female" /></label>
+            <label>Anders:<input type="radio" name="gender" value="other" /></label>
+
+        </p>
+        <p>
+            <label>Favoriete cuisine:</label>
+            <label>Frans:<input type="checkbox" name="Frans" /></label>
+            <label>Italiaans:<input type="checkbox" name="Italiaans" /></label>
+            <label>Spaans:<input type="checkbox" name="Spaans" /></label>
+            <label>Arabisch:<input type="checkbox" name="Arabisch" /></label>
+        </p>
+        <p>
+            <label>Favoriete kleur van short:<input type="color" name="color" /></label>
+        </p>
+        <p>
+            <label>Biografie:<textarea name="message"></textarea></label>
+        </p>
+        <p>
+            <label>Upload een recept:<input type="file" name="file" /></label>
+
+        </p>
+        <p>
+            <label>Hier mijn website:<input type="url" name="myUrl" value="http//www.mijnrecepten.nl" /></label>
+        </p>
+        <p>
+            <button type="reset">Reset</button>
+        </p>
+        <p>
+            <button type="submit">verzenden</button>
+        </p>
+
+    </form>
+
+
+</body>
+
+</html>
